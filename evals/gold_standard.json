@@ -1,0 +1,106 @@
+{
+  "Paris": {
+    "input": {
+      "city": "Paris",
+      "days": 3,
+      "interests": [
+        "Impressionist Art",
+        "Michelin Star Dining",
+        "Seine River Cruises"
+      ],
+      "style": "Luxury",
+      "pace": "Relaxed",
+      "month": "June"
+    },
+    "ground_truth": "The top attractions and events for a trip to Paris in June, considering interests in Impressionist Art, Michelin Star Dining, and Seine River Cruises, include a Seine River cruise, a visit to the Palace of Versailles, exploring Montmartre's artistic quarter, a Michelin Star luxury dinner cruise, and viewing Impressionist art at a local museum or gallery. The Seine River cruise offers romantic and historical views of the city, while the Michelin Star dinner cruise provides an unforgettable gastronomic experience. The Palace of Versailles and Montmartre's artistic quarter offer a glimpse into the city's rich history and artistic heritage. Impressionist art can be found at various museums and galleries throughout the city, showcasing the works of famous artists such as Monet and Renoir. These attractions and events provide a well-rounded and culturally enriching experience for visitors to Paris.",
+    "essential_topics": [
+      "Seine River cruise options",
+      "Michelin Star restaurant reservations in Paris",
+      "Impressionist art museum and gallery locations"
+    ],
+    "expected_queries": [
+      "best Seine River cruise companies in Paris",
+      "Michelin Star dinner cruises on the Seine River",
+      "Impressionist art exhibitions in Paris June 2026"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Paris in June for interests: Impressionist Art, Michelin Star Dining, Seine River Cruises', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.tourradar.com/v/river-seine', 'title': '10 Best Seine River Cruises 2026/2027 - TourRadar', 'content': \"Paris brings Eiffel Tower access and a Seine River cruise, along with visits to the Palace of Versailles and Montmartre's artistic quarter. Burgundy wine [TRUNCATED]\", 'score': 0.767638, 'raw_content': None}, {'url': 'https://www.trip.com/travel-guide/attraction/paris/seine-river-78782', 'title': 'Seine River Tickets [2026] - Promos, Prices, Reviews & Opening ...', 'content': '\"The Seine River runs through the center of Paris, with romantic and historical views along the way. On both sides of the river are ancient buildings and [TRUNCATED]', 'score': 0.575517, 'raw_content': None}, {'url': 'https://www.deluxefrance.com/details-paris+michelin+star+luxury+dinner+cruise-482', 'title': 'Paris Michelin Star Luxury Dinner Cruise - Deluxe France', 'content': 'Home > Paris > Paris Michelin Star Luxury Dinner Cruise. # Paris Michelin Star Luxury Dinner Cruise. Paris Michelin Star Luxury Dinner Cruise   Eiffel Tower   Paris Michelin Star Luxury Dinner Cruise   Paris Michelin Star Luxury Dinner Cruise   Paris Michelin Star Luxury Dinner Cruise   Paris Michelin Star Luxury Dinner Cruise. Enjoy an unforgettable gastronomic cruise along the Se"
+  },
+  "Tokyo": {
+    "input": {
+      "city": "Tokyo",
+      "days": 5,
+      "interests": [
+        "Robotics & AI Hubs",
+        "Tsukiji Outer Market",
+        "Anime Culture"
+      ],
+      "style": "Mid-range",
+      "pace": "Packed",
+      "month": "October"
+    },
+    "ground_truth": "The top attractions in Tokyo for October include the 100-year-old Senso-ji Temple, TeamLab Borderless exhibit, Tokyo Tower, Shibuya Crossing, and the Robot Restaurant in Shinjuku. These must-see attractions offer a mix of historic temples, futuristic exhibits, and vibrant city life. The Senso-ji Temple is open from 6 AM to 5 PM, while Tokyo Tower is open from 9 AM to 11 PM. The Robot Restaurant is a unique experience showcasing Japan's anime culture. Additionally, visitors can explore the Tsukiji Outer Market for a sushi experience and visit the National Museum of Western Art and Tokyo National Museum for more insight into Japanese culture.",
+    "essential_topics": [
+      "Tokyo Robotics and AI Hubs",
+      "Tsukiji Outer Market",
+      "Anime Culture"
+    ],
+    "expected_queries": [
+      "Tokyo robotics and AI attractions in October",
+      "Tsukiji Outer Market tour and sushi recommendations",
+      "Best anime culture experiences in Tokyo for October"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Tokyo in October for interests: Robotics & AI Hubs, Tsukiji Outer Market, Anime Culture', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://ibooking.com/travel-guides/things-to-do/best-things-to-do-in-tokyo-2026-guide', 'title': 'Best Things to Do in Tokyo (2026 Guide) | iBooking.com', 'content': \"In 2026, visit Tokyo's top attractions like the 100-year-old Senso-ji Temple and the futuristic TeamLab Borderless exhibit, with entry fees starting at \u00a52,400. Activities and things to do in Tokyo. # Best Things to Do in Tokyo (2026 Guide). ## Top Tours and Activities in Tokyo. Tokyo Private SightSeeing Day Tour With Guide. Private Day Tour in Tokyo with Government-Licensed Guide. **Tokyo\u2019s must-see attractions include historic temples like Senso-ji, panoramic views from Tokyo Tower, and the famous pedestrian scramble at Shibuya Crossing. Tokyo Tower, located at 4 Chome-2-8 Shibakoen in Minato, rises 333 meters and is open daily from 9 AM to 11 PM. Senso-ji Temple, situated on Asakusa 2-3-1, is Tokyo\u2019s oldest temple and welcomes visitors from 6 AM to 5 PM. It takes roughly 30 to 45 minutes [TRUNCATED]\", 'score': 0.85097736, 'raw_content': None}, {'url': 'https://www.getyourguide.com/tokyo-l193/ttd', 'title': 'The BEST Things to Do in Tokyo - Top Activities in 2026', 'content': 'Tokyo hits every note\u2014neon nights in Shibuya, calm temples in Asakusa, and ramen worth crossing town for."
+  },
+  "Mumbai": {
+    "input": {
+      "city": "Mumbai",
+      "days": 3,
+      "interests": [
+        "UNESCO Heritage Sites",
+        "Marine Drive Seafront",
+        "Bollywood Tours"
+      ],
+      "style": "Mid-range",
+      "pace": "Balanced",
+      "month": "January"
+    },
+    "ground_truth": "The top attractions in Mumbai for January include the Elephanta Caves, a UNESCO World Heritage Site, and the Gateway of India. A stroll along Marine Drive Seafront is a must, offering breathtaking views of the city. For Bollywood enthusiasts, a film studio tour is essential. Chhatrapati Shivaji Terminus, another UNESCO Heritage Site, is also a key attraction. Lastly, a boat trip to the ancient temples at the Elephanta Caves is highly recommended. These attractions provide a mix of history, culture, and entertainment, making for a well-rounded trip to Mumbai.",
+    "essential_topics": [
+      "UNESCO Heritage Sites in Mumbai",
+      "Bollywood Tour options",
+      "Marine Drive Seafront activities"
+    ],
+    "expected_queries": [
+      "Mumbai UNESCO Heritage Sites tour packages",
+      "Bollywood film studio tour bookings",
+      "Marine Drive Seafront walking tour guides"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Mumbai in January for interests: UNESCO Heritage Sites, Marine Drive Seafront, Bollywood Tours', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.getyourguide.com/india-l169037', 'title': 'The BEST India Tours and Things to Do in 2026 - GetYourGuide', 'content': 'Mumbai: Elephanta Caves Half-Day Guided Tour with Expert. Explore the beautiful Elephanta Caves, a UNESCO World Heritage Site on a this tour from Mumbai. [TRUNCATED]', 'score': 0.7593865, 'raw_content': None}, {'url': 'https://www.viator.com/Mumbai/d953', 'title': 'What to do in Mumbai? The 15 Best Attractions (UPDATED 2026)', 'content': \"It's home to the Bollywood film industry and offers loads to experience, from film studio tours to boat trips to the ancient temples at the Elephanta Caves. [TRUNCATED]\", 'score': 0.7493996, 'raw_content': None}, {'url': 'https://www.machupicchu.org/mumbai-travel-guide-2026-best-things-to-do-see.htm', 'title': 'Mumbai Travel Guide 2026: Best Things to Do & See', 'content': 'Travelers with limited time can see major highlights in two days, focusing on Gateway of India, Elephanta Caves, Marine Drive, and Chhatrapati Shivaji Terminus. [TRUNCATED]', 'score': 0.7295395, 'raw_content': None}], 'response_time': 1.87, 'request_id': '5b04f13e-fec1-437a-bb99-92404ee6ec87'}"
+  },
+  "Kerala": {
+    "input": {
+      "city": "Kerala",
+      "days": 4,
+      "interests": [
+        "Alleppey Houseboats",
+        "Ayurvedic Massages",
+        "Munnar Tea Plantations"
+      ],
+      "style": "Budget",
+      "pace": "Relaxed",
+      "month": "September"
+    },
+    "ground_truth": "The 5 absolute must-include attractions/events for a trip to Kerala in September are: Alleppey Houseboats, Ayurvedic Massages, Munnar Tea Plantations, Periyar Lake, and Fort Kochi. Alleppey Houseboats offer a unique experience, cruising through the backwaters. Ayurvedic Massages provide relaxation and rejuvenation. Munnar Tea Plantations are a must-visit for their scenic beauty and tea-tasting experiences. Periyar Lake is ideal for spotting elephants and other wildlife. Fort Kochi is a historic site with Portuguese and Dutch influences, offering a glimpse into Kerala's rich history.",
+    "essential_topics": [
+      "Alleppey Houseboat bookings",
+      "Munnar Tea Plantation tours",
+      "Ayurvedic Massage centers in Kerala"
+    ],
+    "expected_queries": [
+      "Kerala tour packages including Alleppey Houseboats and Munnar Tea Plantations",
+      "Best Ayurvedic Massage centers in Kerala for relaxation",
+      "September weather and events in Kerala for tourists"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Kerala in September for interests: Alleppey Houseboats, Ayurvedic Massages, Munnar Tea Plantations', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.tourradar.com/v/region-kerala', 'title': '10 Best Kerala Tours & Trips 2026/2027 - TourRadar', 'content': \"Deals of The Week\u2022Asia on the Rise\\xa0\\xa0Up to 50% OFF. You'll cruise backwaters on those traditional houseboats, tour tea plantations in Munnar's hills, watch Kathakali dancers doing their thing, spot elephants in Periyar, try bamboo rafting, explore Fort Kochi's Portuguese and Dutch bits, relax on Kovalam's beaches, and basically forget what stress feels like. 1. ### Grand Tour of South India 4.6 52 Reviews by TourRadar travelers> \u201cwonderful people.\u201d. Munnar\u2019s rolling hills, the calm of Periyar Lake, and the backwaters of Alleppey were like a dream. ### Amazing Kerala Tour from Cochin - 6 Days 4.8 38 Reviews by TourRadar travelers> \u201cA flawless experience from Cochin to Munnar, Thekkady, and back! They introduced our driver Praveen at the airport and he looked after us for the rest of the trip [TRUNCATED]\", 'score': 0.81524754, 'raw_content': None}, {'url': 'https://irisholidays.com/keralatourism/places-to-visit-in-kerala', 'title': '\ud83d\udccdTop 15 Places To Visit In Kerala In 2026 With Map (Updated) \u2013 Iris Holidays', 'content': 'There are several **places to visit in Kerala** including beaches like Kovalam, hill stations "
+  }
+}

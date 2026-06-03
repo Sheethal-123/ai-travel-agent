@@ -1,0 +1,230 @@
+2026-06-02 20:06:39,174 - INFO - CONFIG INITIALIZED
+2026-06-02 20:07:12,445 - INFO - CONFIG INITIALIZED
+2026-06-02 20:07:16,218 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:07:34,960 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:07:52,993 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:08:11,140 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:21:12,668 - INFO - CONFIG INITIALIZED
+2026-06-02 20:21:12,677 - INFO - TAVILY TOOL ALL SET
+2026-06-02 20:21:12,732 - INFO - SERPER TOOL ALL SET
+2026-06-02 20:21:13,403 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-06-02 20:21:13,463 - INFO - Travel Planner initialized
+2026-06-02 20:21:13,487 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-06-02 20:21:14,207 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:21:14,332 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:21:16,358 - INFO - Tavily Search Tool called with query: Paris luxury travel tips June 2026
+2026-06-02 20:21:16,372 - INFO - Tavily Search Tool called with query: Impressionist art museums in Paris
+2026-06-02 20:21:16,402 - INFO - Tavily Search Tool called with query: Michelin star restaurants in Paris
+2026-06-02 20:21:16,406 - INFO - Tavily Search Tool called with query: Seine River cruise options in Paris
+2026-06-02 20:21:16,428 - INFO - Google Serper Search Tool called with query: Paris luxury hotels June 2026
+2026-06-02 20:21:16,436 - INFO - Google Serper Search Tool called with query: best time to visit Paris in June
+2026-06-02 20:21:20,463 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:21:20,529 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:21:22,530 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-06-02 20:21:27,533 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Paris luxury travel tips June 2026'}
+2026-06-02 20:21:27,533 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Impressionist art museums in Paris'}
+2026-06-02 20:21:27,533 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Michelin star restaurants in Paris'}
+2026-06-02 20:21:27,533 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Seine River cruise options in Paris'}
+2026-06-02 20:21:27,533 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Paris luxury hotels June 2026'}
+2026-06-02 20:21:27,533 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'best time to visit Paris in June'}
+2026-06-02 20:21:27,533 - INFO - Structuring the agent response into TravelPlan model
+2026-06-02 20:21:29,290 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:22:14,458 - INFO - Travel Planner initialized
+2026-06-02 20:22:14,511 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-06-02 20:22:15,329 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:22:15,420 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:22:17,431 - INFO - Tavily Search Tool called with query: Tokyo robotics and AI hubs October 2026
+2026-06-02 20:22:17,443 - INFO - Tavily Search Tool called with query: Tsukiji Outer Market October 2026
+2026-06-02 20:22:17,452 - INFO - Tavily Search Tool called with query: Tokyo anime culture October 2026
+2026-06-02 20:22:17,464 - INFO - Google Serper Search Tool called with query: Tokyo mid-range accommodation October 2026
+2026-06-02 20:22:17,475 - INFO - Google Serper Search Tool called with query: Tokyo travel tips October 2026
+2026-06-02 20:22:17,483 - INFO - Tavily Search Tool called with query: Tokyo food suggestions October 2026
+2026-06-02 20:22:17,496 - INFO - Tavily Search Tool called with query: Tokyo local tips October 2026
+2026-06-02 20:22:17,506 - INFO - Google Serper Search Tool called with query: Tokyo events October 2026
+2026-06-02 20:22:21,975 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:22:22,186 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:22:24,189 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-06-02 20:22:29,195 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo robotics and AI hubs October 2026'}
+2026-06-02 20:22:29,196 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tsukiji Outer Market October 2026'}
+2026-06-02 20:22:29,196 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo anime culture October 2026'}
+2026-06-02 20:22:29,196 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Tokyo mid-range accommodation October 2026'}
+2026-06-02 20:22:29,196 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Tokyo travel tips October 2026'}
+2026-06-02 20:22:29,196 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo food suggestions October 2026'}
+2026-06-02 20:22:29,196 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo local tips October 2026'}
+2026-06-02 20:22:29,196 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Tokyo events October 2026'}
+2026-06-02 20:22:29,196 - INFO - Structuring the agent response into TravelPlan model
+2026-06-02 20:22:29,464 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 20:22:29,467 - INFO - Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2026-06-02 20:22:45,629 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 20:22:45,630 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-06-02 20:22:50,703 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:23:35,779 - INFO - Travel Planner initialized
+2026-06-02 20:23:35,801 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-06-02 20:23:36,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:23:36,539 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:23:38,546 - INFO - Tavily Search Tool called with query: Mumbai UNESCO Heritage Sites
+2026-06-02 20:23:38,558 - INFO - Tavily Search Tool called with query: Bollywood Tours Mumbai
+2026-06-02 20:23:38,566 - INFO - Tavily Search Tool called with query: Marine Drive Seafront activities
+2026-06-02 20:23:38,577 - INFO - Tavily Search Tool called with query: Mid-range hotels in Mumbai
+2026-06-02 20:23:38,587 - INFO - Tavily Search Tool called with query: Mumbai weather in January
+2026-06-02 20:23:38,592 - INFO - Tavily Search Tool called with query: Mumbai food suggestions
+2026-06-02 20:23:38,611 - INFO - Tavily Search Tool called with query: Local tips for traveling in Mumbai
+2026-06-02 20:23:38,618 - INFO - Google Serper Search Tool called with query: Mumbai 3-day itinerary
+2026-06-02 20:23:38,627 - INFO - Google Serper Search Tool called with query: Bollywood tour prices in Mumbai
+2026-06-02 20:23:38,635 - INFO - Google Serper Search Tool called with query: UNESCO Heritage Sites in Mumbai
+2026-06-02 20:23:42,147 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:23:42,185 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:23:44,187 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-06-02 20:23:49,193 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai UNESCO Heritage Sites'}
+2026-06-02 20:23:49,194 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Marine Drive Seafront activities'}
+2026-06-02 20:23:49,194 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Bollywood Tours Mumbai'}
+2026-06-02 20:23:49,194 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mid-range hotels in Mumbai'}
+2026-06-02 20:23:49,194 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai weather in January'}
+2026-06-02 20:23:49,194 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai food suggestions'}
+2026-06-02 20:23:49,195 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Local tips for traveling in Mumbai'}
+2026-06-02 20:23:49,195 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Mumbai 3-day itinerary'}
+2026-06-02 20:23:49,195 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Bollywood tour prices in Mumbai'}
+2026-06-02 20:23:49,195 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'UNESCO Heritage Sites in Mumbai'}
+2026-06-02 20:23:49,195 - INFO - Structuring the agent response into TravelPlan model
+2026-06-02 20:23:49,394 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 20:23:49,395 - INFO - Retrying request to /openai/v1/chat/completions in 34.000000 seconds
+2026-06-02 20:24:25,211 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:25:10,267 - INFO - Travel Planner initialized
+2026-06-02 20:25:10,274 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-06-02 20:25:10,901 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:25:10,939 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:25:12,947 - INFO - Tavily Search Tool called with query: Kerala 4-day trip plan for September 2026 including Alleppey Houseboats, Ayurvedic Massages, and Munnar Tea Plantations on a budget
+2026-06-02 20:25:13,181 - INFO - Google Serper Search Tool called with query: Kerala travel tips and advice for budget travelers in September 2026
+2026-06-02 20:25:13,194 - INFO - Tavily Search Tool called with query: Alleppey Houseboats prices and availability in September 2026
+2026-06-02 20:25:13,206 - INFO - Tavily Search Tool called with query: Ayurvedic Massage centers in Kerala with prices for September 2026
+2026-06-02 20:25:13,217 - INFO - Google Serper Search Tool called with query: Munnar Tea Plantations tour prices and reviews for September 2026
+2026-06-02 20:25:15,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:25:15,994 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:25:18,002 - INFO - Google Serper Search Tool called with query: Kerala travel tips and advice for budget travelers in September 2026
+2026-06-02 20:25:18,006 - INFO - Tavily Search Tool called with query: Munnar Tea Plantations tour prices and reviews for September 2026
+2026-06-02 20:25:20,833 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:25:20,893 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:25:22,898 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-06-02 20:25:27,903 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Kerala 4-day trip plan for September 2026 including Alleppey Houseboats, Ayurvedic Massages, and Munnar Tea Plantations on a budget'}
+2026-06-02 20:25:27,903 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Kerala travel tips and advice for budget travelers in September 2026'}
+2026-06-02 20:25:27,903 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Alleppey Houseboats prices and availability in September 2026'}
+2026-06-02 20:25:27,904 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Ayurvedic Massage centers in Kerala with prices for September 2026'}
+2026-06-02 20:25:27,904 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Munnar Tea Plantations tour prices and reviews for September 2026'}
+2026-06-02 20:25:27,904 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Kerala travel tips and advice for budget travelers in September 2026'}
+2026-06-02 20:25:27,904 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Munnar Tea Plantations tour prices and reviews for September 2026'}
+2026-06-02 20:25:27,904 - INFO - Structuring the agent response into TravelPlan model
+2026-06-02 20:25:28,142 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 20:25:28,143 - INFO - Retrying request to /openai/v1/chat/completions in 17.000000 seconds
+2026-06-02 20:25:47,113 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:03,839 - INFO - CONFIG INITIALIZED
+2026-06-02 20:27:05,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:06,341 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:06,932 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:10,031 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:10,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:12,101 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:12,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:15,174 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:15,704 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:58,953 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:27:59,986 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:00,376 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:03,662 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:03,689 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:04,749 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:05,383 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:08,068 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:08,585 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:52,538 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:53,499 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:53,945 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:56,868 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:57,322 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:59,132 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:28:59,569 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:02,115 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:02,757 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:45,911 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:46,882 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:47,329 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:50,322 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:50,773 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:51,590 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:51,919 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:54,584 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:29:55,315 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:30:32,267 - INFO - CONFIG INITIALIZED
+2026-06-02 20:30:32,271 - INFO - TAVILY TOOL ALL SET
+2026-06-02 20:30:32,281 - INFO - SERPER TOOL ALL SET
+2026-06-02 20:30:32,636 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-06-02 20:31:05,851 - INFO - CONFIG INITIALIZED
+2026-06-02 20:31:05,855 - INFO - TAVILY TOOL ALL SET
+2026-06-02 20:31:05,863 - INFO - SERPER TOOL ALL SET
+2026-06-02 20:31:06,169 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-06-02 20:31:40,678 - WARNING - Attempting to instrument while already instrumented
+2026-06-02 20:31:40,682 - INFO - Travel Planner initialized
+2026-06-02 20:31:41,925 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-06-02 20:31:42,678 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:31:42,830 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:31:44,837 - INFO - Tavily Search Tool called with query: Las Vegas 3-day itinerary mid-range July 2026
+2026-06-02 20:31:44,840 - INFO - Google Serper Search Tool called with query: Las Vegas travel guide July 2026
+2026-06-02 20:31:44,848 - INFO - Tavily Search Tool called with query: best casinos in Las Vegas
+2026-06-02 20:31:44,852 - INFO - Tavily Search Tool called with query: top food recommendations in Las Vegas
+2026-06-02 20:31:44,857 - INFO - Google Serper Search Tool called with query: Las Vegas events and festivals July 2026
+2026-06-02 20:31:48,043 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:31:48,057 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:31:50,059 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-06-02 20:31:55,065 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Las Vegas 3-day itinerary mid-range July 2026'}
+2026-06-02 20:31:55,065 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Las Vegas travel guide July 2026'}
+2026-06-02 20:31:55,066 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'best casinos in Las Vegas'}
+2026-06-02 20:31:55,066 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'top food recommendations in Las Vegas'}
+2026-06-02 20:31:55,066 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Las Vegas events and festivals July 2026'}
+2026-06-02 20:31:55,066 - INFO - Structuring the agent response into TravelPlan model
+2026-06-02 20:31:56,448 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:31:56,639 - INFO - RESPONSE GENERATED
+2026-06-02 20:34:50,883 - INFO - CONFIG INITIALIZED
+2026-06-02 20:34:50,887 - INFO - TAVILY TOOL ALL SET
+2026-06-02 20:34:50,897 - INFO - SERPER TOOL ALL SET
+2026-06-02 20:34:51,249 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-06-02 20:36:31,724 - WARNING - Attempting to instrument while already instrumented
+2026-06-02 20:36:31,739 - INFO - Travel Planner initialized
+2026-06-02 20:36:33,004 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-06-02 20:36:33,720 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:36:33,932 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:36:35,934 - INFO - Tavily Search Tool called with query: Yellowstone National Park 3-day itinerary mid-range July 2026
+2026-06-02 20:36:35,936 - INFO - Google Serper Search Tool called with query: Yellowstone National Park trekking routes and food options July 2026
+2026-06-02 20:36:35,938 - INFO - Tavily Search Tool called with query: Yellowstone National Park nightlife and local tips July 2026
+2026-06-02 20:36:39,760 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:36:39,789 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:36:41,802 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-06-02 20:36:46,808 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Yellowstone National Park 3-day itinerary mid-range July 2026'}
+2026-06-02 20:36:46,809 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Yellowstone National Park trekking routes and food options July 2026'}
+2026-06-02 20:36:46,809 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Yellowstone National Park nightlife and local tips July 2026'}
+2026-06-02 20:36:46,809 - INFO - Structuring the agent response into TravelPlan model
+2026-06-02 20:36:48,418 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:36:48,524 - INFO - RESPONSE GENERATED
+2026-06-02 20:38:48,620 - WARNING - Attempting to instrument while already instrumented
+2026-06-02 20:38:48,631 - INFO - Travel Planner initialized
+2026-06-02 20:38:48,638 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-06-02 20:38:49,297 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:38:49,310 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:38:51,316 - INFO - Tavily Search Tool called with query: Rishikesh trekking spots
+2026-06-02 20:38:51,322 - INFO - Tavily Search Tool called with query: Rishikesh food scene
+2026-06-02 20:38:51,326 - INFO - Tavily Search Tool called with query: Rishikesh nightlife
+2026-06-02 20:38:51,332 - INFO - Tavily Search Tool called with query: Rishikesh places to visit
+2026-06-02 20:38:51,336 - INFO - Tavily Search Tool called with query: Rishikesh mid-range accommodations
+2026-06-02 20:38:51,340 - INFO - Tavily Search Tool called with query: Rishikesh weather in July
+2026-06-02 20:38:51,343 - INFO - Google Serper Search Tool called with query: Rishikesh current events July 2026
+2026-06-02 20:38:54,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 20:38:54,938 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-06-02 20:38:56,942 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-06-02 20:39:01,947 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Rishikesh trekking spots'}
+2026-06-02 20:39:01,947 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Rishikesh food scene'}
+2026-06-02 20:39:01,948 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Rishikesh nightlife'}
+2026-06-02 20:39:01,948 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Rishikesh places to visit'}
+2026-06-02 20:39:01,948 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Rishikesh mid-range accommodations'}
+2026-06-02 20:39:01,948 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Rishikesh weather in July'}
+2026-06-02 20:39:01,948 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Rishikesh current events July 2026'}
+2026-06-02 20:39:01,948 - INFO - Structuring the agent response into TravelPlan model
+2026-06-02 20:39:02,104 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 20:39:02,104 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kq8kr7b5f4ev1kh1vfwefeqx` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 93281, Requested 6955. Please try again in 3m23.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
